@@ -24,3 +24,5 @@ Para instalar o Express temporariamente não o inclua na lista de dependências,
 ```
 $ npm install express
 ```
+
+> Módulos do Node instalados com a opção --save são incluídas na lista dependencies no arquivo package.json. Posteriormente, executando npm install no diretório app irá automaticamente instalar os módulos na lista de dependências.
